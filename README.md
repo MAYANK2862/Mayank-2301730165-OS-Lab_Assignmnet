@@ -8,7 +8,11 @@ In this assignment, students will simulate Linux process management operations u
 Write a Python program that creates N child processes using os.fork(). Each child prints:
 
 -Its PID
+
+
 -Its Parent PID
+
+
 -A custom message The parent should wait for all children using os.wait().
 
 # Task 2: Command Execution Using exec()
@@ -24,8 +28,13 @@ Zombie: Fork a child and skip wait() in the parent. Orphan: Parent exits before 
 Take a PID as input. Read and print:
 
 -Process name, state, memory usage from /proc/[pid]/status
+
+
 -Executable path from /proc/[pid]/exe
+
+
 -Open file descriptors from /proc/[pid]/fd
+
 
 # Task 5: Process Prioritization
 
