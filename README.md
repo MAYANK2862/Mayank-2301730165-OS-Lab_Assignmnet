@@ -1,10 +1,13 @@
-🖥️ OS Lab Assignment 1 — Process Creation and Management Using Python
+# 🖥️ OS Lab Assignment 1 — Process Creation and Management Using Python
 
-📌 Overview
 
-This project demonstrates key process management concepts in Linux using Python’s os module. It explores how processes are created, executed, prioritized, and inspected, simulating real OS-level operations.
 
-🚀 Experiments
+# 📌 Overview
+
+In this assignment, students will simulate Linux process management operations using Python. The experiment focuses on replicating the behaviors of fork(), exec(), and process state inspections using the os and subprocess modules in Python. It provides an understanding of process creation, child-parent relationship, and zombie/orphan process scenarios.
+
+
+# 🚀 Experiments
 
 Process Creation Utility — Create multiple child processes using os.fork() and synchronize with os.wait().
 
@@ -16,13 +19,13 @@ Zombie & Orphan Simulation — Demonstrate process states and parent-child depen
 
 Process Prioritization — Observe scheduling effects using different nice values.
 
-⚙️ Complexity
+# ⚙️ Complexity
 
 Time Complexity: O(n)
 
 Space Complexity: O(n)
 
-🧠 Key Learnings
+#🧠 Key Learnings
 
 Lifecycle and states of processes (creation → execution → termination).
 
@@ -32,6 +35,6 @@ Real-time process inspection using /proc.
 
 Scheduler behavior under different priorities.
 
-📄 Conclusion
+#📄 Conclusion
 
 The experiment provided hands-on understanding of process creation, scheduling, and inspection, reinforcing OS concepts through Python simulations.
