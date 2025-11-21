@@ -1,40 +1,36 @@
 # 🖥️ OS Lab Assignment 1 — Process Creation and Management Using Python
 
-
-
-# 📌 Overview
+📌 Overview
 
 In this assignment, students will simulate Linux process management operations using Python. The experiment focuses on replicating the behaviors of fork(), exec(), and process state inspections using the os and subprocess modules in Python. It provides an understanding of process creation, child-parent relationship, and zombie/orphan process scenarios.
 
+# Task 1: Process Creation Utility
+Write a Python program that creates N child processes using os.fork(). Each child prints:
 
-# 🚀 Experiments
+-Its PID
+-Its Parent PID
+-A custom message The parent should wait for all children using os.wait().
 
-Process Creation Utility — Create multiple child processes using os.fork() and synchronize with os.wait().
+# Task 2: Command Execution Using exec()
 
-Command Execution — Execute Linux commands via os.execvp() in child processes.
+Modify Task 1 so that each child process executes a Linux command (ls, date, ps, etc.) using os.execvp() or subprocess.run().
 
-Zombie & Orphan Simulation — Demonstrate process states and parent-child dependencies.
+# Task 3: Zombie & Orphan Processes
 
-/proc Inspection — Retrieve process details (PID, state, memory, etc.) from /proc/[pid]/status.
+Zombie: Fork a child and skip wait() in the parent. Orphan: Parent exits before the child finishes. Use ps -el | grep defunct to identify zombies.
 
-Process Prioritization — Observe scheduling effects using different nice values.
+# Task 4: Inspecting Process Info from /proc
 
-# ⚙️ Complexity
+Take a PID as input. Read and print:
 
-Time Complexity: O(n)
+-Process name, state, memory usage from /proc/[pid]/status
+-Executable path from /proc/[pid]/exe
+-Open file descriptors from /proc/[pid]/fd
 
-Space Complexity: O(n)
+# Task 5: Process Prioritization
 
-#🧠 Key Learnings
+Create multiple CPU-intensive child processes. Assign different nice() values. Observe and log execution order to show scheduler impact.
 
-Lifecycle and states of processes (creation → execution → termination).
-
-Fork–exec mechanism in Linux.
-
-Real-time process inspection using /proc.
-
-Scheduler behavior under different priorities.
-
-#📄 Conclusion
+# 📄 Conclusion
 
 The experiment provided hands-on understanding of process creation, scheduling, and inspection, reinforcing OS concepts through Python simulations.
