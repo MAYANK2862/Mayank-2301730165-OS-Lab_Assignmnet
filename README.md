@@ -1,45 +1,91 @@
-# 🖥️ OS Lab Assignment 1 — Process Creation and Management Using Python
+# Operating Systems Lab Sheets (ENCS351)
 
-📌 Overview
+This repository contains all the Operating Systems Laboratory Assignments for the B.Tech CSE(Ai/Ml) course.
+Each lab sheet includes Python-based simulations demonstrating concepts such as process creation, multiprocessing, system behavior, and logging.
 
-In this assignment, students will simulate Linux process management operations using Python. The experiment focuses on replicating the behaviors of fork(), exec(), and process state inspections using the os and subprocess modules in Python. It provides an understanding of process creation, child-parent relationship, and zombie/orphan process scenarios.
+## Folder Structure
 
-# Task 1: Process Creation Utility
-Write a Python program that creates N child processes using os.fork(). Each child prints:
+```
+LAB_SHEETS/ 
+ ├─ Lab_Sheet_1/
+ │   ├─ process_management.py
+ │   ├─ output.txt
+ │   ├─ report.pdf
+ │   └─ README.md
+ ├─ Lab_Sheet_2/
+ │   ├─ system_startup_simulation.py
+ │   ├─ process_log.txt
+ │   ├─ report.pdf
+ │   └─ README.md
+ ├─ Lab_Sheet_3/
+     ├── Task_1_os3task1.py
+     ├── Task_2_os3task2.py
+     ├── Task_3_os3task3.py
+     ├── Task_4_os3task4.py
+     ├── Task_5_os3task5.py
+     └── report_LabSheet-3.pdf
+     └── README.md
+Lab_Sheet_4/
+├── Task_1_os4task1.py
+├── Task_2_os4task2.py
+├── Task_3_os4task3.py
+├── Task_4_os4task4.py
+├── Task_5_os4task5.py
+│
+├── system_log.txt
+├── outputs/
+├── os4task4.png
+├──report_LabSheet-4.pdf
+└── README.md
+ └─ README.md
 
--Its PID
+```
+
+# Lab Sheet Details
+
+## Lab Sheet 1: Process Creation and Management Using Python (OS Module)
+
+## Lab Sheet 2: System Startup, Process Creation, and Termination Simulation in Python
+
+## Lab Sheet 3: Simulation of File Allocation, Memory Management, and Scheduling in Python
+
+## Lab Sheet 4: System Calls, VM Detection, and File System Operations using Python
 
 
--Its Parent PID
+# How to Run
+
+## Prerequisites
+
+-Check Python version:
+
+-python --version
+
+-Run Lab Sheet 1
+
+-cd Lab_Sheet_1
+
+-python process_management.py
+
+-Run Lab Sheet 2
+
+-cd Lab_Sheet_2
+
+-python system_startup_simulation.py
+
+-Run Lab Sheet 3
+
+-cd Lab_Sheet_3
+
+-Run Lab Sheet 4
+
+-cd Lab_Sheet_4
 
 
--A custom message The parent should wait for all children using os.wait().
 
-# Task 2: Command Execution Using exec()
+## Submitted By
 
-Modify Task 1 so that each child process executes a Linux command (ls, date, ps, etc.) using os.execvp() or subprocess.run().
+Name: Mayank Jha
 
-# Task 3: Zombie & Orphan Processes
+Course: B.Tech CSE(Ai/Ml)
 
-Zombie: Fork a child and skip wait() in the parent. Orphan: Parent exits before the child finishes. Use ps -el | grep defunct to identify zombies.
-
-# Task 4: Inspecting Process Info from /proc
-
-Take a PID as input. Read and print:
-
--Process name, state, memory usage from /proc/[pid]/status
-
-
--Executable path from /proc/[pid]/exe
-
-
--Open file descriptors from /proc/[pid]/fd
-
-
-# Task 5: Process Prioritization
-
-Create multiple CPU-intensive child processes. Assign different nice() values. Observe and log execution order to show scheduler impact.
-
-# 📄 Conclusion
-
-The experiment provided hands-on understanding of process creation, scheduling, and inspection, reinforcing OS concepts through Python simulations.
+Roll no : 2301730165
