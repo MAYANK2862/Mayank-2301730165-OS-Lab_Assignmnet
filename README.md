@@ -1,6 +1,6 @@
 # Operating Systems Lab Sheets (ENCS351)
 
-This repository contains all the Operating Systems Laboratory Assignments for the B.Tech CSE course. Each lab sheet includes Python-based simulations demonstrating concepts such as process creation, multiprocessing, system behavior, and logging.
+This repository contains all the Operating Systems Laboratory Assignments for the B.Tech CSE(AI/ML) course. Each lab sheet includes Python-based simulations demonstrating concepts such as process creation, multiprocessing, system behavior, and logging.
 
 ## Folder Structure
 ```
