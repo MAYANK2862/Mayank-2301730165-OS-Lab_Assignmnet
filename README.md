@@ -5,36 +5,67 @@ This repository contains all the Operating Systems Laboratory Assignments for th
 ## Folder Structure
 
 LAB_SHEETS/ 
+
  ├─ Lab_Sheet_1/
+ 
  │   ├─ process_management.py
+ 
  │   ├─ output.txt
+ 
  │   ├─ report.pdf
+ 
  │   └─ README.md
+ 
  ├─ Lab_Sheet_2/
+ 
  │   ├─ system_startup_simulation.py
+ 
  │   ├─ process_log.txt
+ 
  │   ├─ report.pdf
+ 
  │   └─ README.md
+ 
  ├─ Lab_Sheet_3/
+ 
      ├── Task_1_os3task1.py
+     
      ├── Task_2_os3task2.py
+     
      ├── Task_3_os3task3.py
+     
      ├── Task_4_os3task4.py
+     
      ├── Task_5_os3task5.py
+     
      └── report_LabSheet-3.pdf
+     
      └── README.md
+     
 Lab_Sheet_4/
+
 ├── Task_1_os4task1.py
+
 ├── Task_2_os4task2.py
+
 ├── Task_3_os4task3.py
+
 ├── Task_4_os4task4.py
+
 ├── Task_5_os4task5.py
+
 │
+
 ├── system_log.txt
+
 ├── outputs/
+
 ├── os4task4.png
+
 ├──report_LabSheet-4.pdf
+
 └── README.md
+
  └─ README.md
 
 ## Lab Sheet Details
