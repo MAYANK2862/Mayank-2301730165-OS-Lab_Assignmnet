@@ -3,8 +3,7 @@
 This repository contains all the Operating Systems Laboratory Assignments for the B.Tech CSE course. Each lab sheet includes Python-based simulations demonstrating concepts such as process creation, multiprocessing, system behavior, and logging.
 
 ## Folder Structure
-
-
+'''
 LAB_SHEETS/ 
  ├─ Lab_Sheet_1/ 
   │   ├─ process_management.py
@@ -37,7 +36,7 @@ LAB_SHEETS/
 ├──report_LabSheet-4.pdf
 └── README.md
  └─ README.md
-
+'''
 # Lab Sheet Details
 
 ## Lab Sheet 1: Process Creation and Management Using Python (OS Module)
