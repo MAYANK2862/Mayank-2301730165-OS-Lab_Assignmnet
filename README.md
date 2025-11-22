@@ -6,7 +6,7 @@ This repository contains all the Operating Systems Laboratory Assignments for th
 
 
 LAB_SHEETS/ 
- ├─ Lab_Sheet_1/
+ ├─ Lab_Sheet_1/ 
   │   ├─ process_management.py
   │   ├─ output.txt
   │   ├─ report.pdf
