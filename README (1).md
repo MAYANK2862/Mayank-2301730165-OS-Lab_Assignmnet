@@ -84,8 +84,8 @@ Lab_Sheet_4/
 
 ## Submitted By
 
-Name: Gunjan Joshi
+Name: Mayank Jha
 
-Course: B.Tech CSE
+Course: B.Tech CSE(AI/ML)
 
-Roll no : 2301010062
+Roll no : 2301730165
