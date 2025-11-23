@@ -3,9 +3,9 @@
 ## Simulation of File Allocation, Memory Management, and CPU Scheduling in Python
 
 ### Course Code: ENCS351
-### Program: B.Tech CSE
-### Student: Gunjan Joshi
-### Roll No.: 2301010062
+### Program: B.Tech CSE(AI/ML)
+### Student: Mayank Jha
+### Roll No.: 2301730165
 
 # Overview
 
@@ -99,9 +99,10 @@ No external libraries required
 
 ## Submitted by 
 
-Name: Gunjan Joshi
+Name: Mayank Jha
 
-Roll No.: 2301010062
+Roll No.: 2301730165
 
 
-Program: B.Tech CSE, K.R. Mangalam University
+Program: B.Tech CSE(AI/ML) , K.R. Mangalam University
+
