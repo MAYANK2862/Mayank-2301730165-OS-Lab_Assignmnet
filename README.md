@@ -79,6 +79,6 @@ LAB_SHEETS/
 
 Name: Mayank Jha
 
-Course: B.Tech CSE(Ai/Ml)
+Course: B.Tech CSE(AI/ML)
 
 Roll no : 2301730165
