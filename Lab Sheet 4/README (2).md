@@ -4,11 +4,11 @@
 
 Course Code: ENCS351
 
-Program: B.Tech CSE
+Program: B.Tech CSE(AI/ML)
 
-Student: Gunjan Joshi
+Student: Mayank Jha
 
-Roll No.: 2301010062
+Roll No.: 2301730165
 
 # Overview
 
@@ -120,3 +120,4 @@ Bash for VM detection script
 
 
 No external Python libraries required
+
